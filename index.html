@@ -5,19 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portofolio</title>
     <style>
+        :root {
+            --bg-main: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --accent: #58a6ff;
+            --text-main: #c9d1d9;
+            --text-heading: #fff;
+        }
         body{
-            font-family: 'Times New Roman', Times, serif;
-            background-color: rgb(152, 148, 17);
-            color: #541313;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-main);
+            color: var(--text-main);
         }
 
         h1{
             text-align: center;
-        
+            color: var(--text-heading);
         }
 
         h2 {
             text-align: center;
+            color: var(--text-heading);
+        }
+
+        h3 {
+            color: var(--text-heading);
         }
 
         .about-me {
@@ -28,33 +42,39 @@
             border-radius: 10px;
         }
 
+        .projects {
+            display: flex;
+        }
+
         .project1 {
             padding: 20px;
             margin-bottom: 30px;
-            border: 1px solid white;
-            background-color: cadetblue;
+            border: 1px solid var(--border-color);
+            background-color: var(--card-bg);
             border-radius: 10px;
             transition: all 300ms;
-            
+            height: 550px;
+            width: 650px;
+            margin-right: 40px;
         }
         
         .project2 {
             padding: 20px;
             margin-bottom: 30px;
-            border: 1px solid white;
-            background-color: rgb(95, 158, 160);
+            border: 1px solid var(--border-color);
+            background-color: var(--card-bg);
             border-radius: 10px;
             transition: all 300ms;
+            height: 550px;
+            width: 650px;
 
         }
 
         .project1:hover {
-            background-color: rgb(95, 130, 160);
             transform: translateY(-5px);
         }
         
         .project2:hover {
-            background-color: rgb(95, 130, 160);
             transform: translateY(-5px);
         }
 
@@ -68,15 +88,15 @@
 
         .contact a {
             text-decoration: none;
-            color: #541313;
+            color: var(--accent);
             display: inline-block;
-            background-color: cadetblue;
+            background-color: var(--card-bg);
             padding: 10px 15px;
             border-radius: 5px;
         }
 
         .contact a:hover {
-            background-color: #555;
+            transform: translateY(-5px);
         }
 
 
@@ -108,7 +128,7 @@
             <p>
                 A smart open-source tool with Python which is running in backgroud and organize automatic the Downloads and Desktop folder! The project delivers 3 major QoL improvements: Automatic Downloads organization — no more manual sorting. Desktop cleanup — keeps both Downloads and Desktop organized in the background. Custom smart rules — users can organize files by keywords, prefixes, and custom patterns instead of only file extensions.
             </p>
-            <img src="assets/Py-Watchdog-Image.png" alt="Image of Py-Watchdog: Smart Folder Automation Hub">
+            <img src="assets/Py-Watchdog-Image.png" alt="Image of Py-Watchdog: Smart Folder Automation Hub" width="500" height="300">
         </div>
     </div>
 
@@ -117,19 +137,19 @@
     </h2>
 
     <div class="skills">
-        <div style="background-color: rgb(95, 158, 160);">
+        <div>
             Python
         </div>
-        <div style="background-color: rgb(95, 158, 160);">
+        <div>
             C/C++
         </div>
-        <div style="background-color: rgb(95, 158, 160);">
+        <div >
             Embedded Systems
         </div>
-        <div style="background-color: rgb(95, 158, 160);">
+        <div>
             Git
         </div>
-        <div style="background-color: rgb(95, 158, 160);">
+        <div>
             KiCad
         </div>
     </div>
