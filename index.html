@@ -4,10 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portofolio</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(152, 148, 17);
+            color: #541313;
+        }
+
+        h1{
+            text-align: center;
+        
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .about-me {
+            text-align: center;
+            color: rgb(19, 17, 16);
+        }
+        img {
+            border-radius: 10px;
+        }
+
+        .project1 {
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 1px solid white;
+            background-color: cadetblue;
+            border-radius: 10px;
+            transition: all 0.3ms;
+            
+        }
+        
+        .project2 {
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 1px solid white;
+            background-color: rgb(95, 158, 160);
+            border-radius: 10px;
+            transition: all 0.3ms;
+
+        }
+
+        .project1:hover {
+            background-color: rgb(95, 130, 160);
+            transform: translateY(-5px);
+        }
+        
+        .project2:hover {
+            background-color: rgb(95, 130, 160);
+            transform: translateY(-5px);
+        }
+
+        .skills {
+            text-align: center;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #541313;
+            display: inline-block;
+            background-color: cadetblue;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .contact a:hover {
+            background-color: #555;
+        }
+
+
+    </style>
 </head>
 <body>
     <h1>Hello I am Grigorios Iosifidis!</h1>
-    <h3>Python developer, low-level systems & hardware builder</h3>
+    <div class="about-me">
+        <h3>Python developer, low-level systems & hardware builder</h3>
+    </div>
 
     <h2>My projects</h2>
     <div class="projects">
@@ -30,6 +109,28 @@
                 A smart open-source tool with Python which is running in backgroud and organize automatic the Downloads and Desktop folder! The project delivers 3 major QoL improvements: Automatic Downloads organization — no more manual sorting. Desktop cleanup — keeps both Downloads and Desktop organized in the background. Custom smart rules — users can organize files by keywords, prefixes, and custom patterns instead of only file extensions.
             </p>
             <img src="assets/Py-Watchdog-Image.png" alt="Image of Py-Watchdog: Smart Folder Automation Hub">
+        </div>
+    </div>
+
+    <h2>
+        My Skills
+    </h2>
+
+    <div class="skills">
+        <div style="background-color: rgb(95, 158, 160);">
+            Python
+        </div>
+        <div style="background-color: rgb(95, 158, 160);">
+            C/C++
+        </div>
+        <div style="background-color: rgb(95, 158, 160);">
+            Embedded Systems
+        </div>
+        <div style="background-color: rgb(95, 158, 160);">
+            Git
+        </div>
+        <div style="background-color: rgb(95, 158, 160);">
+            KiCad
         </div>
     </div>
 
