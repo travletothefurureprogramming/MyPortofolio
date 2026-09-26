@@ -7,6 +7,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+<img width="1887" height="897" alt="image" src="https://github.com/user-attachments/assets/6ac18cde-e93b-41ba-8329-ee43667cfc95" />
+
 Personal developer portfolio featuring local-first systems, Python automation, and low-level engineering projects. Built with light/dark theme persistence and an infinite marquee showcase.
 
 ## Featured Projects
